@@ -7,4 +7,4 @@ De speler schiet kristalballen naar beneden. Die stuiteren tegen magische krista
 
 # 1.2 Random Items
 
-![eerstegifje](Assets/Images/eerstegifje.gif)
+![eerstegifje](Images/eerstegifje.gif)
