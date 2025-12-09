@@ -7,4 +7,6 @@ De speler schiet kristalballen naar beneden. Die stuiteren tegen magische krista
 
 # 1.2 Random Items
 
-![eerstegifje](Assets/Images/eerstegifje.gif)
+![eerstegifje](Images/eerstegifje.gif)
+
+Beschrijving:   Herhaling van datatypes, ik heb nummer 1 voor een willekeurig item, nummer 2 voor alle items.
