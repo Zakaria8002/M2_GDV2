@@ -17,3 +17,11 @@ Beschrijving:   Herhaling van datatypes, ik heb nummer 1 voor een willekeurig it
 
 Beschrijving: Add Force en Collider
 
+
+# 2.2 Peggle Mikken
+
+![derdegifje](Images/derdegifje.gif)
+
+Beschrijving: Kanon en Mikken
+
+
