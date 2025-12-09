@@ -13,7 +13,7 @@ Beschrijving:   Herhaling van datatypes, ik heb nummer 1 voor een willekeurig it
 
 # 2.1 Forces & Collisons
 
-![tweedegifje](Images/eerstegifje.gif)
+![tweedegifje](Images/tweedegifje.gif)
 
 Beschrijving: Add Force en Collider
 
