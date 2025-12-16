@@ -10,6 +10,8 @@ De speler schiet
 
 Beschrijving:   Herhaling van datatypes, ik heb nummer 1 voor een willekeurig item, nummer 2 voor alle items.
 
+Scripts: [Randomitems.cs](Assets/Scripts/randomitems.cs)
+
 # 2.1 Forces & Collisons
 
 ![tweedegifje](Images/tweedegifje.gif)
