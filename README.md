@@ -23,4 +23,11 @@ Beschrijving: Add Force en Collider
 
 Beschrijving: Kanon en Mikken
 
+# 3.1 Score & Triggers
+
+![eerstefoto](Images/eerstefoto.png)
+
+Beschrijving: een Peggle die reageert wanneer de bal het object raakt, bijhoudt hoeveel hits er nog over zijn, punten doorgeeft aan de ScoreManager en verdwijnt zodra de ingestelde hoeveelheid hits is bereikt
+
+
 
