@@ -29,5 +29,13 @@ Beschrijving: Kanon en Mikken
 
 Beschrijving: een Peggle die reageert wanneer de bal het object raakt, bijhoudt hoeveel hits er nog over zijn, punten doorgeeft aan de ScoreManager en verdwijnt zodra de ingestelde hoeveelheid hits is bereikt
 
+# 3.2 Peggle Game, Combos, Multiplier, Events
+
+![vierdegifje](Images/vierdegifje.gif)
+
+Beschrijving: een combo systeem op basis van tags.
+
+
+
 
 
