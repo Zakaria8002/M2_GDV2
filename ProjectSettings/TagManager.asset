@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 3
   tags:
   - Target
+  - Redcombo
+  - BlueCombo
+  - Ball
   layers:
   - Default
   - TransparentFX
