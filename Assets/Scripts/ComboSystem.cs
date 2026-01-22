@@ -11,15 +11,17 @@ public class ComboSystem : MonoBehaviour
                                                           // Deze kan twee int waarden versturen: score en multiplier
     private void Start()
     {
-        BumperHit.onBumperHit += CheckForCombo;             //luisteren naar action event onBumperHit als game start
+        HitBumper.onHitBumper += CheckForCombo;
     }
     private void OnDisable()
     {
-        BumperHit.onBumperHit -= CheckForCombo;             //stop met luisteren naar action event onBumperHit als scene herstart of game stopt
+        HitBumper.onHitBumper -= CheckForCombo;
     }
-    private void CheckForCombo(string tag, int bumperValue)
+
+    // Vervang de parameterlijst en implementatie
+    private void CheckForCombo(Transform transform, int bumperValue)
     {
-        bumperTags.Add(tag);                                //tag toevoegen aan lijst
+        bumperTags.Add(transform.gameObject.tag);                                //tag toevoegen aan lijst
         if (bumperTags.Count > 1)                           //check of er meer dan 1 tag is
         {                                                   //check of de laatste 2 tags gelijk zijn
             if (bumperTags[bumperTags.Count - 2] == bumperTags[bumperTags.Count - 1])

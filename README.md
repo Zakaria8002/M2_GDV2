@@ -50,4 +50,10 @@ Beschrijving: Canvas en UI gebruiken voor text
 
 Beschrijving: Score met text laten werken.
 
+# 5.2 Particles, Sounds
+
+![Particles sounds](Images/zesdegifje.gif)
+
+Beschrijving: Particles aangemaakt en sound
+
 
