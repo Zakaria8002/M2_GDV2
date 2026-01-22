@@ -56,4 +56,10 @@ Beschrijving: Score met text laten werken.
 
 Beschrijving: Particles aangemaakt en sound
 
+# 6.1 Afronden & Uitbreiding
+
+![Afronden Uitbreiding](Images/zevendegifje.gif)
+
+Beschrijving: Afronden Uitbreiding van me peggle game
+
 
