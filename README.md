@@ -44,6 +44,10 @@ Beschrijving: een combo systeem op basis van tags.
 Beschrijving: Canvas en UI gebruiken voor text
 
 
+# 4.2 Text Score 
 
+![Text SCore](Images/vijfdegifje.gif)
+
+Beschrijving: Score met text laten werken.
 
 

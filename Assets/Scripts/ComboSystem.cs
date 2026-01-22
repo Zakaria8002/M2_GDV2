@@ -1,9 +1,14 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
+// using Game; // <-- Uncomment and modify if ScoreManager is in a different namespace
+
 public class ComboSystem : MonoBehaviour
 {
     private List<string> bumperTags = new List<string>();   //lijst met geraakte tags
     private int scoreMultiplier = 1;
+    public static event Action<int, int> OnScoreChange;    // Voeg een nieuw Action Event toe met de naam OnScoreChange
+                                                          // Deze kan twee int waarden versturen: score en multiplier
     private void Start()
     {
         BumperHit.onBumperHit += CheckForCombo;             //luisteren naar action event onBumperHit als game start
@@ -14,7 +19,6 @@ public class ComboSystem : MonoBehaviour
     }
     private void CheckForCombo(string tag, int bumperValue)
     {
-        Debug.Log($"Bumper geraakt met tag: {tag} en waarde: {bumperValue}");
         bumperTags.Add(tag);                                //tag toevoegen aan lijst
         if (bumperTags.Count > 1)                           //check of er meer dan 1 tag is
         {                                                   //check of de laatste 2 tags gelijk zijn
@@ -28,10 +32,8 @@ public class ComboSystem : MonoBehaviour
                 bumperTags.Clear();                         //leeg de lijst met tags
             }
         }                                                   //voeg score toe aan de ScoreManager
-        int totalScore = bumperValue * scoreMultiplier;
-
-Debug.Log($"Score toegevoegd: {totalScore} | Multiplier: {scoreMultiplier}x | Tag: {tag}");
-
+        Scoremanager.Instance.AddScore(bumperValue * scoreMultiplier);
+        OnScoreChange?.Invoke(Scoremanager.Instance.score, scoreMultiplier); // Verstuur het Action Event met de score en multiplier
     }
 }
 
