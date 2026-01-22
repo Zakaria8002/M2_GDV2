@@ -37,6 +37,12 @@ Beschrijving: een Peggle die reageert wanneer de bal het object raakt, bijhoudt 
 
 Beschrijving: een combo systeem op basis van tags.
 
+# 4.1 UI 
+
+![UI](Images/image.png)
+
+Beschrijving: Canvas en UI gebruiken voor text
+
 
 
 
