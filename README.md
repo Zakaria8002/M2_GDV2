@@ -3,7 +3,7 @@
 # 1.1 GameConcept
 Beschrijving Concept 
 
-De speler schiet 
+De speler schiet ijzeren ballen 
 # 1.2 Random Items
 
 ![eerstegifje](Images/eerstegifje.gif)
