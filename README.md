@@ -46,6 +46,10 @@ Scripts: [Scoremanager.cs](Assets/Scripts/Scoremanager.cs)
 
 Beschrijving: een combo systeem op basis van tags.
 
+Scripts: [ComboSystem.cs](Assets/Scripts/ComboSystem.cs)
+
+Scripts: [BumperHit.cs](Assets/Scripts/BumperHit.cs)
+
 # 4.1 UI 
 
 ![UI](Images/image.png)
