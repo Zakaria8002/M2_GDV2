@@ -38,6 +38,8 @@ Scripts: [Aim.cs](Assets/Scripts/Aim.cs)
 
 Beschrijving: een Peggle die reageert wanneer de bal het object raakt, bijhoudt hoeveel hits er nog over zijn, punten doorgeeft aan de ScoreManager en verdwijnt zodra de ingestelde hoeveelheid hits is bereikt
 
+Scripts: [Scoremanager.cs](Assets/Scripts/Scoremanager.cs)
+
 # 3.2 Peggle Game, Combos, Multiplier, Events
 
 ![vierdegifje](Images/vierdegifje.gif)
