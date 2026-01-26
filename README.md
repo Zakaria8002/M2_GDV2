@@ -28,6 +28,10 @@ Scripts: [Targetcollison.cs](Assets/Scripts/Targetcollison.cs)
 
 Beschrijving: Kanon en Mikken
 
+Scripts: [Shoot.cs](Assets/Scripts/Shoot.cs)
+
+Scripts: [Aim.cs](Assets/Scripts/Aim.cs)
+
 # 3.1 Score & Triggers
 
 ![eerstefoto](Images/eerstefoto.png)
