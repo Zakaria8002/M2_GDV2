@@ -18,6 +18,9 @@ Scripts: [Randomitems.cs](Assets/Scripts/randomitems.cs)
 
 Beschrijving: Add Force en Collider
 
+Scripts: [Shootball.cs](Assets/Scripts/Shootball.cs)
+Scripts: [Targetcollison.cs](Assets/Scripts/Targetcollison.cs)
+
 
 # 2.2 Peggle Mikken
 
