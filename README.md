@@ -63,6 +63,10 @@ Beschrijving: Canvas en UI gebruiken voor text
 
 Beschrijving: Score met text laten werken.
 
+Scripts: [UiScoreBoard.cs](Assets/Scripts/UIScoreBoard.cs)
+
+Scripts: [Shoot.cs](Assets/Scripts/Shoot.cs)
+
 # 5.2 Particles, Sounds
 
 ![Particles sounds](Images/zesdegifje.gif)
